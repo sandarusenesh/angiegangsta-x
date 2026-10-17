@@ -1,0 +1,10 @@
+node_modules/
+session/
+session-*/
+data/
+.env
+*.log
+logs/
+npm-debug.log*
+.DS_Store
+Thumbs.db

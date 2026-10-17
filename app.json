@@ -1,0 +1,18 @@
+{
+  "name": "ANGIE GANGSTA X",
+  "description": "Full-featured WhatsApp bot — anti-commands, auto-commands, view-once unlock, AI, downloads, stickers",
+  "repository": "https://github.com/yobbyking/angiegangsta-x",
+  "logo": "",
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "stack": "container",
+  "env": {
+    "OWNER_NAME": { "description": "Owner display name", "value": "Angie", "required": false },
+    "OWNER_NUMBER": { "description": "Owner number with country code (empty = auto-detect)", "value": "", "required": false },
+    "PREFIX": { "description": "Command prefix", "value": ".", "required": false },
+    "AI_API_KEY": { "description": "OpenAI-compatible API key for .ai", "value": "", "required": false },
+    "AI_BASE_URL": { "description": "OpenAI-compatible base URL", "value": "https://api.openai.com/v1", "required": false },
+    "AI_MODEL": { "description": "AI model name", "value": "gpt-4o-mini", "required": false },
+    "PAIR_PHONE": { "description": "Auto-pair with this number (country code, digits only)", "value": "", "required": false }
+  },
+  "formation": { "web": { "quantity": 1, "size": "eco" } }
+}
